@@ -1,11 +1,16 @@
 
 import './App.css'
+import Navbar from "./components/Navbar.tsx";
+import Introduction from "./components/Introduction.tsx";
 
 function App() {
 
   return (
     <>
-        <div className="bg-blue-500 text-white p-4">Portfolio</div>
+        <Navbar />
+        <main className="flex flex-col items-center justify-center bg-neutral-700 text-white min-h-screen">
+            <Introduction />
+        </main>
     </>
   )
 }
