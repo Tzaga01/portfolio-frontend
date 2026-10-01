@@ -1,0 +1,12 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Me",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "intro": {
+    "title": "Hi, my name is Imran Tsaga",
+    "description": "I'm a Software Engineer focused on system development for the entire stack."
+  }
+}
