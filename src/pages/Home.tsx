@@ -1,5 +1,4 @@
 
-import Navbar from "../components/Navbar.tsx";
 import Introduction from "../components/Introduction.tsx";
 import ProjectCarousel from "../components/ProjectCarousel.tsx";
 
@@ -7,7 +6,6 @@ function Home() {
 
   return (
     <>
-        <Navbar />
         <main className="flex flex-col items-center justify-center bg-neutral-700 text-white min-h-screen">
             <Introduction />
             <ProjectCarousel

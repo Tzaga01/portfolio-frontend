@@ -1,3 +1,4 @@
+import {NavLink} from "react-router-dom";
 
 
 const Navbar = () => {
@@ -9,16 +10,16 @@ const Navbar = () => {
 
             <ul className="flex gap-8 m-0 p-0 list-none">
                 <li>
-                    <a href= "#home" className="text-gray-300 hover:text-gray-400 transition-colors">Home</a>
+                    <NavLink to="/" end className="text-gray-300 hover:text-gray-400 transition-colors">Home</NavLink>
                 </li>
                 <li>
-                    <a href= "#about" className="text-gray-300 hover:text-gray-400 transition-colors">About</a>
+                    <NavLink to="/about" className="text-gray-300 hover:text-gray-400 transition-colors">About</NavLink>
                 </li>
                 <li>
-                    <a href= "#projects" className="text-gray-300 hover:text-gray-400 transition-colors">Projects</a>
+                    <NavLink to="/projects" className="text-gray-300 hover:text-gray-400 transition-colors">Projects</NavLink>
                 </li>
                 <li>
-                    <a href= "#contact" className="text-gray-300 hover:text-gray-400 transition-colors">Contact</a>
+                    <NavLink to="/contact" className="text-gray-300 hover:text-gray-400 transition-colors">Contact</NavLink>
                 </li>
             </ul>
         </nav>
